@@ -1,12 +1,503 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physionic Hospital</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="/src/output.css">
 </head>
-<body>
+
+<body class="bg-white text-slate-800 font-sans">
+
+  <header class="absolute top-0 left-0 w-full z-20">
+    <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+      <a href="#" class="text-white text-lg font-bold">Physionic</a>
+
+      <nav class="hidden md:flex items-center gap-7 text-[11px] text-white">
+        <a href="#" class="hover:text-sky-300">Home</a>
+        <a href="#" class="hover:text-sky-300">Product</a>
+        <a href="#" class="hover:text-sky-300">Pricing</a>
+        <a href="#" class="hover:text-sky-300">Contact</a>
+      </nav>
+
+      <a href="#" class="bg-sky-500 hover:bg-sky-600 text-white text-[10px] font-semibold px-5 py-3 rounded-sm">
+        Get Online Now →
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="relative min-h-[650px] md:min-h-[700px] bg-slate-500 overflow-hidden">
+      <div class="absolute inset-0 bg-slate-700/45">  <img class="" src="./hero-cover.5.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
+</div>
+
+
     
+      <div class="relative z-10 max-w-6xl mx-auto px-5 pt-32 md:pt-36">
+        <div class="grid md:grid-cols-[1fr_330px] gap-10 items-start">
+
+          <div class="max-w-xl text-white pt-8 md:pt-14">
+            <p class="text-sm md:text-base font-medium mb-3">
+              We know how large objects will act,
+            </p>
+
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-5">
+              Meet the Best<br>
+              Hospital
+            </h1>
+
+            <p class="text-sm md:text-base leading-6 text-white/90 max-w-md mb-7">
+              We know how large objects will act, but things on a small scale.
+            </p>
+
+            <div class="flex gap-3">
+              <a href="#" class="bg-sky-500 text-white px-6 py-3 rounded-full text-xs font-semibold">
+                Get Quote Now
+              </a>
+              <a href="#" class="border border-white text-white px-6 py-3 rounded-full text-xs font-semibold">
+                Learn More
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-md shadow-xl p-6 w-full max-w-[330px] mx-auto">
+            <h2 class="font-bold text-lg mb-6">Book Appointment</h2>
+
+            <form class="space-y-4">
+              <div>
+                <label class="block text-[10px] font-semibold mb-1">Name *</label>
+                <input type="text" placeholder="Full Name"
+                  class="w-full border border-slate-200 rounded px-3 py-2 text-xs outline-none focus:border-sky-500">
+              </div>
+
+              <div>
+                <label class="block text-[10px] font-semibold mb-1">Email address *</label>
+                <input type="email" placeholder="example@gmail.com"
+                  class="w-full border border-slate-200 rounded px-3 py-2 text-xs outline-none focus:border-sky-500">
+              </div>
+
+              <div>
+                <label class="block text-[10px] font-semibold mb-1">Department *</label>
+                <select class="w-full border border-slate-200 rounded px-3 py-2 text-xs text-slate-500 outline-none">
+                  <option>Please Select</option>
+                  <option>Cardiology</option>
+                  <option>Dental</option>
+                  <option>Neurology</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-[10px] font-semibold mb-1">Time *</label>
+                <select class="w-full border border-slate-200 rounded px-3 py-2 text-xs text-slate-500 outline-none">
+                  <option>4:00 Available</option>
+                  <option>5:00 Available</option>
+                  <option>6:00 Available</option>
+                </select>
+              </div>
+
+              <button class="w-full bg-sky-500 hover:bg-sky-600 text-white py-3 rounded text-xs font-bold">
+                Book Appointment
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-5">
+
+        <div class="text-center max-w-xl mx-auto mb-12">
+          <h2 class="text-2xl font-bold mb-3">Leading Medicine</h2>
+          <p class="text-[10px] leading-5 text-slate-500">
+            Problems trying to resolve the conflict between<br>
+            the major realms of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+
+          <div class="border border-sky-100 rounded overflow-hidden">
+            <div class="bg-sky-400 h-20 flex items-center px-5">
+              <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sky-400">
+                <img src="./icn-circle circle-md.png" alt="">
+              </div>
+              <h3 class="text-white text-xs font-bold ml-3">Emergency Case</h3>
+            </div>
+
+            <div class="p-5">
+              <p class="text-[10px] leading-5 text-slate-500">
+                The best products start with insight.
+              </p>
+              <ul class="mt-2 text-[9px] leading-5 text-slate-500">
+                <li>• Design with real state</li>
+                <li>• Explain high productivity</li>
+                <li>• Faster way to prepare</li>
+                <li>• Work with the proper attitude</li>
+              </ul>
+              <a href="#" class="text-sky-500 text-[9px] font-semibold">Learn More</a>
+            </div>
+          </div>
+
+          <div class="border border-sky-100 rounded overflow-hidden">
+            <div class="bg-sky-400 h-20 flex items-center px-5">
+              <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sky-400">
+                <img src="./icn-circle circle-md.png" alt="">
+              </div>
+              <h3 class="text-white text-xs font-bold ml-3">Cancer Care</h3>
+            </div>
+
+            <div class="p-5">
+              <p class="text-[10px] leading-5 text-slate-500">
+                The best products start with insight.
+              </p>
+              <ul class="mt-2 text-[9px] leading-5 text-slate-500">
+                <li>• Design with real state</li>
+                <li>• Explain high productivity</li>
+                <li>• Faster way to prepare</li>
+                <li>• Work with the proper attitude</li>
+              </ul>
+              <a href="#" class="text-sky-500 text-[9px] font-semibold">Learn More</a>
+            </div>
+          </div>
+
+          <div class="border border-sky-100 rounded overflow-hidden">
+            <div class="bg-sky-400 h-20 flex items-center px-5">
+              <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sky-400">
+                <img src="./icn-circle circle-md.png" alt="">
+              </div>
+              <h3 class="text-white text-xs font-bold ml-3">Health Queries</h3>
+            </div>
+
+            <div class="p-5">
+              <p class="text-[10px] leading-5 text-slate-500">
+                The best products start with insight.
+              </p>
+              <ul class="mt-2 text-[9px] leading-5 text-slate-500">
+                <li>• Design with real state</li>
+                <li>• Explain high productivity</li>
+                <li>• Faster way to prepare</li>
+                <li>• Work with the proper attitude</li>
+              </ul>
+              <a href="#" class="text-sky-500 text-[9px] font-semibold">Learn More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-5">
+
+        <div class="text-center max-w-xl mx-auto mb-12">
+          <h2 class="text-2xl font-bold mb-3">Leading Medicine</h2>
+          <p class="text-[10px] leading-5 text-slate-500">
+            Problems trying to resolve the conflict between<br>
+            the major realms of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+
+          <div class="bg-white border border-slate-100 p-6">
+            <img src="./stars.png" alt="">
+            <p class="text-[10px] leading-5 text-slate-500 mb-5">
+              Slate helps you see how many small details you need to work to make your work beautiful.
+            </p>
+            <div class="flex items-center gap-3">
+              
+              <img src="./media circle-box xs-circle.png" alt="" class="w-8 h-8 rounded-full object-cover">
+              <div>
+                <p class="text-[9px] font-bold">Regina Miles</p>
+                <p class="text-[8px] text-slate-400">Designer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white border border-slate-100 p-6">
+            <img src="./stars.png" alt="">
+            <p class="text-[10px] leading-5 text-slate-500 mb-5">
+              Slate helps you see how many small details you need to work to make your work beautiful.
+            </p>
+            <div class="flex items-center gap-3">
+           
+              <img src="./media circle-box xs-circle (1).png" alt="" class="w-8 h-8 rounded-full object-cover">
+              <div>
+                <p class="text-[9px] font-bold">Regina Miles</p>
+                <p class="text-[8px] text-slate-400">Designer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white border border-slate-100 p-6">
+            <img src="./stars.png" alt="">
+            <p class="text-[10px] leading-5 text-slate-500 mb-5">
+              Slate helps you see how many small details you need to work to make your work beautiful.
+            </p>
+            <div class="flex items-center gap-3">
+             
+              <img src="./media circle-box xs-circle (2).png" alt="" class="w-8 h-8 rounded-full object-cover">
+              <div>
+                <p class="text-[9px] font-bold">Regina Miles</p>
+                <p class="text-[8px] text-slate-400">Designer</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-5">
+
+        <div class="text-center max-w-xl mx-auto mb-12 ">
+          <h2 class="text-2xl font-bold mb-3">FAQ</h2>
+          <p class="text-[10px] leading-5 text-slate-500">
+            Problems trying to resolve the conflict between<br>
+            the major realms of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto ">
+
+          <div class="space-y-5 ">
+            <div>
+              <h3 class="text-[10px] font-bold ">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-5">
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-5">
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-bold">› the quick fox jumps over the lazy dog</h3>
+              <p class="text-[9px] text-slate-400 mt-1 pl-3">
+                Things on a very small scale behave with the world
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-5">
+
+        <div class="text-center max-w-xl mx-auto mb-12">
+          <h2 class="text-2xl font-bold mb-3">Pricing</h2>
+          <p class="text-[10px] leading-5 text-slate-500">
+            Problems trying to resolve the conflict between<br>
+            the major realms of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 max-w-4xl mx-auto items-center">
+
+          <div class="bg-white border border-sky-300 rounded-md p-7">
+            <div class="text-center">
+              <h3 class="font-bold text-xs mb-6">FREE</h3>
+              <p class="text-[9px] text-slate-500">Organize across all apps by hand</p>
+
+              <div class="flex justify-center items-end gap-1 my-5">
+                <span class="text-3xl font-bold text-sky-500">0</span>
+                <span class="text-[9px] font-bold text-sky-500 mb-1">$ Per Month</span>
+              </div>
+
+              <ul class="text-left text-[9px] space-y-3 mb-7">
+                <li class="text-green-500">● Unlimited product updates</li>
+                <li class="text-green-500">● Unlimited product updates</li>
+                <li class="text-slate-400">● 1GB cloud storage</li>
+                <li class="text-slate-400">● Email and community support</li>
+              </ul>
+
+              <button class="w-full bg-sky-500 text-white py-3 text-[9px] rounded">
+                Try for free
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-slate-800 text-white border border-slate-800 rounded-md p-7 md:py-12">
+            <div class="text-center">
+              <h3 class="font-bold text-xs mb-6">STANDARD</h3>
+              <p class="text-[9px] text-slate-300">Organize across all apps by hand</p>
+
+              <div class="flex justify-center items-end gap-1 my-5">
+                <span class="text-3xl font-bold text-sky-400">9.99</span>
+                <span class="text-[9px] font-bold text-sky-400 mb-1">$ Per Month</span>
+              </div>
+
+              <ul class="text-left text-[9px] space-y-3 mb-7">
+                <li class="text-green-400">● Unlimited product updates</li>
+                <li class="text-green-400">● Unlimited product updates</li>
+                <li class="text-slate-300">● 1GB cloud storage</li>
+                <li class="text-slate-300">● Email and community support</li>
+              </ul>
+
+              <button class="w-full bg-sky-500 text-white py-3 text-[9px] rounded">
+                Try for free
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-white border border-sky-300 rounded-md p-7">
+            <div class="text-center">
+              <h3 class="font-bold text-xs mb-6">PREMIUM</h3>
+              <p class="text-[9px] text-slate-500">Organize across all apps by hand</p>
+
+              <div class="flex justify-center items-end gap-1 my-5">
+                <span class="text-3xl font-bold text-sky-500">19.99</span>
+                <span class="text-[9px] font-bold text-sky-500 mb-1">$ Per Month</span>
+              </div>
+
+              <ul class="text-left text-[9px] space-y-3 mb-7">
+                <li class="text-green-500">● Unlimited product updates</li>
+                <li class="text-green-500">● Unlimited product updates</li>
+                <li class="text-green-500">● Unlimited product updates</li>
+                <li class="text-slate-400">● Email and community support</li>
+              </ul>
+
+              <button class="w-full bg-sky-500 text-white py-3 text-[9px] rounded">
+                Try for free
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-slate-800 py-12">
+      <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-7">
+
+        <div class="text-white">
+          <h2 class="text-xl font-bold mb-2">Get In Touch</h2>
+          <p class="text-[9px] text-slate-300 max-w-md">
+            The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th.
+          </p>
+        </div>
+
+        <form class="flex w-full md:w-auto">
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full md:w-64 px-4 py-3 text-xs rounded-l outline-none"
+          >
+          <button class="bg-sky-500 text-white px-5 py-3 text-[9px] rounded-r">
+            Subscribe
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-white">
+    <div class="max-w-6xl mx-auto px-5 py-12">
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+
+        <div>
+          <h3 class="font-bold text-xs mb-5">Get In Touch</h3>
+          <p class="text-[9px] text-slate-500 leading-5 mb-4">
+            the quick fox jumps over the lazy dog
+          </p>
+          <div class="flex gap-3 text-sky-500 text-xs">
+         <img src="./social media.png" alt="">
+          </div>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-xs mb-5">Company Info</h3>
+          <ul class="text-[9px] text-slate-500 space-y-3">
+            <li>About Us</li>
+            <li>Carrier</li>
+            <li>We are hiring</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-xs mb-5">Features</h3>
+          <ul class="text-[9px] text-slate-500 space-y-3">
+            <li>Business Marketing</li>
+            <li>User Analytic</li>
+            <li>Live Chat</li>
+            <li>Unlimited Support</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-xs mb-5">Resources</h3>
+          <ul class="text-[9px] text-slate-500 space-y-3">
+            <li>IOS & Android</li>
+            <li>Watch a Demo</li>
+            <li>Customers</li>
+            <li>API</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="border-t border-slate-100 py-5">
+      <p class="text-center text-[8px] text-slate-400">
+        Made With Love By Figmaland All Right Reserved
+      </p>
+    </div>
+  </footer>
+
 </body>
 </html>
